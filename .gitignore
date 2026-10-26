@@ -1,0 +1,36 @@
+node_modules/
+.next/
+bin/
+obj/
+backend/data/*.db*
+backend/data/documents/
+backend/data/backups/
+.env*
+!.env.example
+
+# Local environment files; template exception is defined below
+.env
+.env.*
+
+# OS and personal IDE files
+.DS_Store
+.vs/
+.idea/
+.vscode/
+
+# Test results and temporary files
+TestResults/
+__pycache__/
+.pytest_cache/
+coverage/
+*.trx
+*.coverage
+*.coveragexml
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.tsbuildinfo
+!.env.example

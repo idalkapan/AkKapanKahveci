@@ -1,0 +1,1 @@
+record Review(string Status);
